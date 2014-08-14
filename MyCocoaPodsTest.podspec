@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
-  s.name         = 'MyCocoaPodsTest'
+  s.name         = 'Reachability'
   s.version      = '3.1.1'
-  s.license      = { :type => 'BSD', :text => license }
+  s.license      = 'MIT'
   s.homepage     = 'https://github.com/tonymillion/Reachability'
   s.authors      = { 'Tony Million' => 'tonymillion@gmail.com' }
   s.summary      = 'ARC and GCD Compatible Reachability Class for iOS and OS X. Drop in replacement for Apple Reachability.'
