@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = 'Reachability'
+  s.name         = 'MyCocoaPodsTest'
   s.version      = '3.1.1'
   s.license      = 'MIT'
   s.homepage     = 'https://github.com/tonymillion/Reachability'
