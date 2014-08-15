@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MyCocoaPodsTest"
-  s.version      = "3.1.1"
+  s.version      = "3.1.2"
   s.summary      = "test"
 
   s.description  = <<-DESC
@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
   
-  s.author             = { "chewyong" => "email@address.com" }
+  s.author             = { "chewyong" => "zhouqiuyang89@gmail.com" }
   # Or just: s.author    = "chewyong"
   # s.authors            = { "chewyong" => "email@address.com" }
   # s.social_media_url   = "http://twitter.com/chewyong"
@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "MyCocoaPodsTest", "MyCocoaPodsTest/**/*.{h,m}"
+  s.source_files  = "*.{h,m}"
   s.exclude_files = "MyCocoaPodsTest/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -128,7 +128,7 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # s.requires_arc = true
+  s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
